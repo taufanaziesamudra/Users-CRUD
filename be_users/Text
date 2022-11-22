@@ -1,0 +1,15 @@
+1. Install beberapa package
+      a. nodemon
+      b. express
+      c. sequelize
+      d. cors
+      e. mysql2
+2. Di package.json tambah beberapa data "type": "module" dan "start": nodemon index.js
+3. Buat folder config dimana didalamnya ada file database.js dan buat function untuk membuat konfigurasi kedatabase 
+4  Buat folder models dimana ada usermodel.js data  buat table users berijkut function untuk membuatnya
+5. Buat folder  controllers dimana ada usercontrolles buat funciton get
+6. Buat folder routes dimana ada  userRoute.js  untuk membuat router
+7. Setelah semua selesai userRoute harus ditaruh di file index.js agar terbaca
+      Kemudian jalankan backend dan cek apakah sudah terhubung kedatabase
+      setelah berajalan pergi ke postman  untuk mengecek rest api get
+8. Buat getUserById di usercontroller
